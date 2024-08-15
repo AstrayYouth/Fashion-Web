@@ -26,13 +26,15 @@
 
 }
 
+nav div {
+    display: inline-block;
+}
 .logo img{
-    max-width: 150px;
-    max-height: 35px;
-    min-width: 30px;
-    min-height: 7px;
+    max-width: 120px;
+    max-height: 30px;
+    
     background-color: black;
-    position: relative;
+    /* position: relative; */
     z-index: 3;
     margin-left: 10px;
     margin-top: 20px;
@@ -42,18 +44,18 @@
     border-radius: 0px 10px ;
     
 }
-nav a{ 
+nav div a{ 
     text-transform:uppercase;
     text-decoration: none;
     color: black;
     cursor: pointer;
     font-family: Poppins;
     font-weight: 500;
-    display: inline-table;
+    margin-top: 11px;
     z-index: -1;
     width:px;
     height: px;
-    padding-left: 20px;
+    margin-left: 20px;
 
 }
 nav a:hover{
@@ -61,9 +63,11 @@ nav a:hover{
 }
 nav{
     margin-top: -40px;
-    margin-left: 60%;
+    margin-left: 20%;
+  
+    z-index: 5;
 }
-.sign-up a{
+.signup a{
     background-color: rgb(0, 0, 0);
     color: white;
     width: 100px;
@@ -71,8 +75,18 @@ nav{
     padding-top: 2px;
     border-radius: 8px;
     margin-left: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
     text-transform:uppercase;
+    padding-right: 14px;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 100px;
+    height: 30px;
+    font-family: Poppins;
+    padding-left: 10px;
+    display:inline-flex;
+
 }
 .sign-up a:active{
     color: rgb(70, 255, 221);
